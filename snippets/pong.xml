@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/nothing/Pong" name="Nothing-phone-2-Development/android_device_nothing_Pong" />
+  <project path="hardware/nothing" name="Nothing-phone-2-Development/android_hardware_nothing" />
+  <project path="kernel/nothing/sm8475" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475" />
+  <project path="kernel/nothing/sm8475-devicetrees" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475-devicetrees" />
+  <project path="kernel/nothing/sm8475-modules" name="Nothing-phone-2-Development/android_kernel_nothing_sm8475-modules" />
+  <project path="vendor/nothing/Pong" name="chandu078/proprietary_vendor_nothing_Pong" remote="gitea-ssh" />
+
+</manifest>

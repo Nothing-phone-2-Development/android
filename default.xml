@@ -18,6 +18,13 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="gitea"
+           fetch="https://gitea.com" />
+
+  <remote  name="gitea-ssh"
+           fetch="ssh://git@gitea.com" 
+           revision="refs/heads/lineage-22.1" />
+
   <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r10" />
   <contactinfo bugurl="go/repo-bug" />
 
@@ -39,7 +46,7 @@
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="Nothing-phone-2-Development/android_build_soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -1363,4 +1370,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/pong.xml" />
 </manifest>
